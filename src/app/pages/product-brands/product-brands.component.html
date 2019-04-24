@@ -1,0 +1,14 @@
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </head>
+  <h3 style="color:darkred;text-align: center">
+    Welcome To Product Brand Page of this Application</h3>
+<ul *ngFor="let brand of brandData" style="color:forestgreen">
+    <li>Product Id:{{brand.ProductId}}
+        Category:{{brand.Category}}
+        Main Category:{{brand.MainCategory}}
+        Tariff Code:{{brand.TaxTarifCode}}
+        Supplier Name:{{brand.SupplierName}}</li>
+</ul>
+
